@@ -35,21 +35,21 @@
             pictureBox1 = new PictureBox();
             trackBar1 = new TrackBar();
             groupBox1 = new GroupBox();
-            label3 = new Label();
-            button7 = new Button();
+            button12 = new Button();
+            button11 = new Button();
+            button10 = new Button();
             button8 = new Button();
             button9 = new Button();
-            button10 = new Button();
-            button11 = new Button();
-            button12 = new Button();
+            button7 = new Button();
+            label3 = new Label();
             label4 = new Label();
             groupBox2 = new GroupBox();
-            label5 = new Label();
-            label6 = new Label();
-            progressBar1 = new ProgressBar();
+            progressBar2 = new ProgressBar();
             label7 = new Label();
             label8 = new Label();
-            progressBar2 = new ProgressBar();
+            progressBar1 = new ProgressBar();
+            label6 = new Label();
+            label5 = new Label();
             button1 = new Button();
             textBox1 = new TextBox();
             button2 = new Button();
@@ -60,10 +60,13 @@
             label9 = new Label();
             button4 = new Button();
             textBox2 = new TextBox();
+            groupBox3 = new GroupBox();
+            textBox3 = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)trackBar1).BeginInit();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
+            groupBox3.SuspendLayout();
             SuspendLayout();
             // 
             // button5
@@ -133,23 +136,32 @@
             groupBox1.TabStop = false;
             groupBox1.Text = "play";
             // 
-            // label3
+            // button12
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(8, 37);
-            label3.Name = "label3";
-            label3.Size = new Size(90, 15);
-            label3.TabIndex = 0;
-            label3.Text = "Record 000000";
+            button12.Location = new Point(8, 175);
+            button12.Name = "button12";
+            button12.Size = new Size(186, 45);
+            button12.TabIndex = 11;
+            button12.Text = "stop";
+            button12.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // button11
             // 
-            button7.Location = new Point(104, 22);
-            button7.Name = "button7";
-            button7.Size = new Size(90, 45);
-            button7.TabIndex = 1;
-            button7.Text = "1.0";
-            button7.UseVisualStyleBackColor = true;
+            button11.Location = new Point(104, 124);
+            button11.Name = "button11";
+            button11.Size = new Size(90, 45);
+            button11.TabIndex = 14;
+            button11.Text = ">>";
+            button11.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            button10.Location = new Point(8, 123);
+            button10.Name = "button10";
+            button10.Size = new Size(90, 45);
+            button10.TabIndex = 13;
+            button10.Text = "<<";
+            button10.UseVisualStyleBackColor = true;
             // 
             // button8
             // 
@@ -169,32 +181,23 @@
             button9.Text = ">";
             button9.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // button7
             // 
-            button10.Location = new Point(8, 123);
-            button10.Name = "button10";
-            button10.Size = new Size(90, 45);
-            button10.TabIndex = 13;
-            button10.Text = "<<";
-            button10.UseVisualStyleBackColor = true;
+            button7.Location = new Point(104, 22);
+            button7.Name = "button7";
+            button7.Size = new Size(90, 45);
+            button7.TabIndex = 1;
+            button7.Text = "1.0";
+            button7.UseVisualStyleBackColor = true;
             // 
-            // button11
+            // label3
             // 
-            button11.Location = new Point(104, 124);
-            button11.Name = "button11";
-            button11.Size = new Size(90, 45);
-            button11.TabIndex = 14;
-            button11.Text = ">>";
-            button11.UseVisualStyleBackColor = true;
-            // 
-            // button12
-            // 
-            button12.Location = new Point(8, 175);
-            button12.Name = "button12";
-            button12.Size = new Size(186, 45);
-            button12.TabIndex = 11;
-            button12.Text = "stop";
-            button12.UseVisualStyleBackColor = true;
+            label3.AutoSize = true;
+            label3.Location = new Point(8, 37);
+            label3.Name = "label3";
+            label3.Size = new Size(90, 15);
+            label3.TabIndex = 0;
+            label3.Text = "Record 000000";
             // 
             // label4
             // 
@@ -221,30 +224,12 @@
             groupBox2.TabStop = false;
             groupBox2.Text = "Driving Data";
             // 
-            // label5
+            // progressBar2
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(7, 38);
-            label5.Name = "label5";
-            label5.Size = new Size(63, 15);
-            label5.TabIndex = 0;
-            label5.Text = "user/angle";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(96, 38);
-            label6.Name = "label6";
-            label6.Size = new Size(39, 15);
-            label6.TabIndex = 1;
-            label6.Text = "label6";
-            // 
-            // progressBar1
-            // 
-            progressBar1.Location = new Point(141, 42);
-            progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(97, 10);
-            progressBar1.TabIndex = 2;
+            progressBar2.Location = new Point(142, 90);
+            progressBar2.Name = "progressBar2";
+            progressBar2.Size = new Size(97, 10);
+            progressBar2.TabIndex = 13;
             // 
             // label7
             // 
@@ -264,12 +249,30 @@
             label8.TabIndex = 14;
             label8.Text = "label8";
             // 
-            // progressBar2
+            // progressBar1
             // 
-            progressBar2.Location = new Point(142, 90);
-            progressBar2.Name = "progressBar2";
-            progressBar2.Size = new Size(97, 10);
-            progressBar2.TabIndex = 13;
+            progressBar1.Location = new Point(141, 42);
+            progressBar1.Name = "progressBar1";
+            progressBar1.Size = new Size(97, 10);
+            progressBar1.TabIndex = 2;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(96, 38);
+            label6.Name = "label6";
+            label6.Size = new Size(39, 15);
+            label6.TabIndex = 1;
+            label6.Text = "label6";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(7, 38);
+            label5.Name = "label5";
+            label5.Size = new Size(63, 15);
+            label5.TabIndex = 0;
+            label5.Text = "user/angle";
             // 
             // button1
             // 
@@ -359,11 +362,30 @@
             textBox2.Size = new Size(674, 23);
             textBox2.TabIndex = 23;
             // 
+            // groupBox3
+            // 
+            groupBox3.Controls.Add(textBox3);
+            groupBox3.Location = new Point(808, 17);
+            groupBox3.Name = "groupBox3";
+            groupBox3.Size = new Size(176, 378);
+            groupBox3.TabIndex = 24;
+            groupBox3.TabStop = false;
+            groupBox3.Text = "Frame list";
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(8, 22);
+            textBox3.Multiline = true;
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(160, 350);
+            textBox3.TabIndex = 0;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(810, 416);
+            ClientSize = new Size(988, 416);
+            Controls.Add(groupBox3);
             Controls.Add(textBox2);
             Controls.Add(button4);
             Controls.Add(label9);
@@ -391,6 +413,8 @@
             groupBox1.PerformLayout();
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
+            groupBox3.ResumeLayout(false);
+            groupBox3.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -428,5 +452,7 @@
         private Label label9;
         private Button button4;
         private TextBox textBox2;
+        private GroupBox groupBox3;
+        private TextBox textBox3;
     }
 }
