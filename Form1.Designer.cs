@@ -1,0 +1,314 @@
+﻿namespace donkeycar_ui
+{
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            button5 = new Button();
+            label1 = new Label();
+            button6 = new Button();
+            label2 = new Label();
+            pictureBox1 = new PictureBox();
+            trackBar1 = new TrackBar();
+            groupBox1 = new GroupBox();
+            label3 = new Label();
+            button7 = new Button();
+            button8 = new Button();
+            button9 = new Button();
+            button10 = new Button();
+            button11 = new Button();
+            button12 = new Button();
+            label4 = new Label();
+            groupBox2 = new GroupBox();
+            label5 = new Label();
+            label6 = new Label();
+            progressBar1 = new ProgressBar();
+            label7 = new Label();
+            label8 = new Label();
+            progressBar2 = new ProgressBar();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar1).BeginInit();
+            groupBox1.SuspendLayout();
+            groupBox2.SuspendLayout();
+            SuspendLayout();
+            // 
+            // button5
+            // 
+            button5.Location = new Point(166, 11);
+            button5.Name = "button5";
+            button5.Size = new Size(121, 27);
+            button5.TabIndex = 4;
+            button5.Text = "Load car directory";
+            button5.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(293, 17);
+            label1.Name = "label1";
+            label1.Size = new Size(39, 15);
+            label1.TabIndex = 5;
+            label1.Text = "label1";
+            // 
+            // button6
+            // 
+            button6.Location = new Point(451, 12);
+            button6.Name = "button6";
+            button6.Size = new Size(121, 27);
+            button6.TabIndex = 6;
+            button6.Text = "Load tub";
+            button6.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(578, 17);
+            label2.Name = "label2";
+            label2.Size = new Size(39, 15);
+            label2.TabIndex = 7;
+            label2.Text = "label2";
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Location = new Point(262, 45);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(326, 240);
+            pictureBox1.TabIndex = 8;
+            pictureBox1.TabStop = false;
+            // 
+            // trackBar1
+            // 
+            trackBar1.Location = new Point(2, 291);
+            trackBar1.Name = "trackBar1";
+            trackBar1.Size = new Size(797, 45);
+            trackBar1.TabIndex = 9;
+            // 
+            // groupBox1
+            // 
+            groupBox1.Controls.Add(button12);
+            groupBox1.Controls.Add(button11);
+            groupBox1.Controls.Add(button10);
+            groupBox1.Controls.Add(button8);
+            groupBox1.Controls.Add(button9);
+            groupBox1.Controls.Add(button7);
+            groupBox1.Controls.Add(label3);
+            groupBox1.Location = new Point(594, 45);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(208, 240);
+            groupBox1.TabIndex = 10;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "play";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(8, 37);
+            label3.Name = "label3";
+            label3.Size = new Size(90, 15);
+            label3.TabIndex = 0;
+            label3.Text = "Record 000000";
+            // 
+            // button7
+            // 
+            button7.Location = new Point(104, 22);
+            button7.Name = "button7";
+            button7.Size = new Size(90, 45);
+            button7.TabIndex = 1;
+            button7.Text = "1.0";
+            button7.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            button8.Location = new Point(8, 72);
+            button8.Name = "button8";
+            button8.Size = new Size(90, 45);
+            button8.TabIndex = 11;
+            button8.Text = "<";
+            button8.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            button9.Location = new Point(104, 73);
+            button9.Name = "button9";
+            button9.Size = new Size(90, 45);
+            button9.TabIndex = 12;
+            button9.Text = ">";
+            button9.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            button10.Location = new Point(8, 123);
+            button10.Name = "button10";
+            button10.Size = new Size(90, 45);
+            button10.TabIndex = 13;
+            button10.Text = "<<";
+            button10.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            button11.Location = new Point(104, 124);
+            button11.Name = "button11";
+            button11.Size = new Size(90, 45);
+            button11.TabIndex = 14;
+            button11.Text = ">>";
+            button11.UseVisualStyleBackColor = true;
+            // 
+            // button12
+            // 
+            button12.Location = new Point(8, 175);
+            button12.Name = "button12";
+            button12.Size = new Size(186, 45);
+            button12.TabIndex = 11;
+            button12.Text = "stop";
+            button12.UseVisualStyleBackColor = true;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("맑은 고딕", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 129);
+            label4.Location = new Point(14, 9);
+            label4.Name = "label4";
+            label4.Size = new Size(133, 25);
+            label4.TabIndex = 11;
+            label4.Text = "Tub manager";
+            // 
+            // groupBox2
+            // 
+            groupBox2.Controls.Add(progressBar2);
+            groupBox2.Controls.Add(label7);
+            groupBox2.Controls.Add(label8);
+            groupBox2.Controls.Add(progressBar1);
+            groupBox2.Controls.Add(label6);
+            groupBox2.Controls.Add(label5);
+            groupBox2.Location = new Point(12, 45);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(244, 132);
+            groupBox2.TabIndex = 12;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "groupBox2";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(7, 38);
+            label5.Name = "label5";
+            label5.Size = new Size(63, 15);
+            label5.TabIndex = 0;
+            label5.Text = "user/angle";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(96, 38);
+            label6.Name = "label6";
+            label6.Size = new Size(39, 15);
+            label6.TabIndex = 1;
+            label6.Text = "label6";
+            // 
+            // progressBar1
+            // 
+            progressBar1.Location = new Point(141, 44);
+            progressBar1.Name = "progressBar1";
+            progressBar1.Size = new Size(97, 10);
+            progressBar1.TabIndex = 2;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(6, 88);
+            label7.Name = "label7";
+            label7.Size = new Size(73, 15);
+            label7.TabIndex = 13;
+            label7.Text = "user/throttle";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(97, 87);
+            label8.Name = "label8";
+            label8.Size = new Size(39, 15);
+            label8.TabIndex = 14;
+            label8.Text = "label8";
+            // 
+            // progressBar2
+            // 
+            progressBar2.Location = new Point(142, 92);
+            progressBar2.Name = "progressBar2";
+            progressBar2.Size = new Size(97, 10);
+            progressBar2.TabIndex = 13;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(810, 602);
+            Controls.Add(groupBox2);
+            Controls.Add(label4);
+            Controls.Add(groupBox1);
+            Controls.Add(trackBar1);
+            Controls.Add(pictureBox1);
+            Controls.Add(label2);
+            Controls.Add(button6);
+            Controls.Add(label1);
+            Controls.Add(button5);
+            Name = "Form1";
+            Text = "Donkeycar UI";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)trackBar1).EndInit();
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
+            groupBox2.ResumeLayout(false);
+            groupBox2.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        #endregion
+        private Button button5;
+        private Label label1;
+        private Button button6;
+        private Label label2;
+        private PictureBox pictureBox1;
+        private TrackBar trackBar1;
+        private GroupBox groupBox1;
+        private Button button11;
+        private Button button10;
+        private Button button8;
+        private Button button9;
+        private Button button7;
+        private Label label3;
+        private Button button12;
+        private Label label4;
+        private GroupBox groupBox2;
+        private ProgressBar progressBar2;
+        private Label label7;
+        private Label label8;
+        private ProgressBar progressBar1;
+        private Label label6;
+        private Label label5;
+    }
+}
