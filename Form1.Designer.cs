@@ -219,7 +219,7 @@
             groupBox2.Size = new Size(244, 132);
             groupBox2.TabIndex = 12;
             groupBox2.TabStop = false;
-            groupBox2.Text = "groupBox2";
+            groupBox2.Text = "Driving Data";
             // 
             // label5
             // 
@@ -285,7 +285,7 @@
             textBox1.Location = new Point(12, 220);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(210, 65);
+            textBox1.Size = new Size(238, 65);
             textBox1.TabIndex = 14;
             // 
             // button2
@@ -363,7 +363,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(810, 602);
+            ClientSize = new Size(810, 416);
             Controls.Add(textBox2);
             Controls.Add(button4);
             Controls.Add(label9);
