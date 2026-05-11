@@ -50,6 +50,16 @@
             label7 = new Label();
             label8 = new Label();
             progressBar2 = new ProgressBar();
+            button1 = new Button();
+            textBox1 = new TextBox();
+            button2 = new Button();
+            button3 = new Button();
+            button13 = new Button();
+            button14 = new Button();
+            button15 = new Button();
+            label9 = new Label();
+            button4 = new Button();
+            textBox2 = new TextBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)trackBar1).BeginInit();
             groupBox1.SuspendLayout();
@@ -190,7 +200,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("맑은 고딕", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 129);
-            label4.Location = new Point(14, 9);
+            label4.Location = new Point(15, 10);
             label4.Name = "label4";
             label4.Size = new Size(133, 25);
             label4.TabIndex = 11;
@@ -231,7 +241,7 @@
             // 
             // progressBar1
             // 
-            progressBar1.Location = new Point(141, 44);
+            progressBar1.Location = new Point(141, 42);
             progressBar1.Name = "progressBar1";
             progressBar1.Size = new Size(97, 10);
             progressBar1.TabIndex = 2;
@@ -256,16 +266,114 @@
             // 
             // progressBar2
             // 
-            progressBar2.Location = new Point(142, 92);
+            progressBar2.Location = new Point(142, 90);
             progressBar2.Name = "progressBar2";
             progressBar2.Size = new Size(97, 10);
             progressBar2.TabIndex = 13;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(12, 183);
+            button1.Name = "button1";
+            button1.Size = new Size(90, 31);
+            button1.TabIndex = 13;
+            button1.Text = "Train";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(12, 220);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(210, 65);
+            textBox1.TabIndex = 14;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(12, 325);
+            button2.Name = "button2";
+            button2.Size = new Size(126, 40);
+            button2.TabIndex = 15;
+            button2.Text = "Set left";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(144, 325);
+            button3.Name = "button3";
+            button3.Size = new Size(126, 40);
+            button3.TabIndex = 16;
+            button3.Text = "Set right";
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // button13
+            // 
+            button13.Location = new Point(408, 325);
+            button13.Name = "button13";
+            button13.Size = new Size(126, 40);
+            button13.TabIndex = 18;
+            button13.Text = "Delete";
+            button13.UseVisualStyleBackColor = true;
+            // 
+            // button14
+            // 
+            button14.Location = new Point(540, 325);
+            button14.Name = "button14";
+            button14.Size = new Size(126, 40);
+            button14.TabIndex = 19;
+            button14.Text = "Restore";
+            button14.UseVisualStyleBackColor = true;
+            // 
+            // button15
+            // 
+            button15.Location = new Point(672, 325);
+            button15.Name = "button15";
+            button15.Size = new Size(126, 40);
+            button15.TabIndex = 20;
+            button15.Text = "Reload Tub";
+            button15.UseVisualStyleBackColor = true;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("맑은 고딕", 12F, FontStyle.Regular, GraphicsUnit.Point, 129);
+            label9.Location = new Point(316, 334);
+            label9.Name = "label9";
+            label9.Size = new Size(42, 21);
+            label9.TabIndex = 21;
+            label9.Text = "[0,0)";
+            // 
+            // button4
+            // 
+            button4.Location = new Point(12, 371);
+            button4.Name = "button4";
+            button4.Size = new Size(106, 24);
+            button4.TabIndex = 22;
+            button4.Text = "Set filter";
+            button4.UseVisualStyleBackColor = true;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(124, 372);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(674, 23);
+            textBox2.TabIndex = 23;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(810, 602);
+            Controls.Add(textBox2);
+            Controls.Add(button4);
+            Controls.Add(label9);
+            Controls.Add(button15);
+            Controls.Add(button14);
+            Controls.Add(button13);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(textBox1);
+            Controls.Add(button1);
             Controls.Add(groupBox2);
             Controls.Add(label4);
             Controls.Add(groupBox1);
@@ -310,5 +418,15 @@
         private ProgressBar progressBar1;
         private Label label6;
         private Label label5;
+        private Button button1;
+        private TextBox textBox1;
+        private Button button2;
+        private Button button3;
+        private Button button13;
+        private Button button14;
+        private Button button15;
+        private Label label9;
+        private Button button4;
+        private TextBox textBox2;
     }
 }
